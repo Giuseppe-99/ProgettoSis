@@ -62,10 +62,10 @@ public class AllegatoController {
         } else {
             filename= allegato.getFilename();
         }
-        es.sendMailAllegato("C:\\Users\\Giuseppe\\Documents\\ProgettoSis\\"+mail+filename+".png",mail);
-        File file1 = new File("C:\\Users\\Giuseppe\\Documents\\ProgettoSis\\"+mail+filename+".png");
+        es.sendMailAllegato(mail+filename+".png",mail);
+        File file1 = new File(mail+filename+".png");
         file1.delete();
-        File file2 = new File("C:/Users/Giuseppe/Downloads/"+allegato.getFilename());
+        File file2 = new File(allegato.getFilename());
         file2.delete();
         //browse(downloadURL);
         return new ResponseData(allegato.getFilename(),downloadURL,alleg.getContentType(),alleg.getSize());
@@ -106,7 +106,7 @@ public class AllegatoController {
             } else {
                 filename= nome;
             }
-            ProcessBuilder pb = new ProcessBuilder("python","C:\\Users\\Giuseppe\\Desktop\\ok.py",path,"4",mail,filename);
+            ProcessBuilder pb = new ProcessBuilder("python","ok.py",path,"4",mail,filename);
             Process gg = pb.start();
 
             //Process p = Runtime.getRuntime().exec("python  C:\\Users\\Giuseppe\\Desktop\\ok.py");
