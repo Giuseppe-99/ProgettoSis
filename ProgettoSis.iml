@@ -53,16 +53,25 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-context-support:5.3.6" level="project" />
     <orderEntry type="library" name="Maven: com.sun.mail:jakarta.mail:1.6.7" level="project" />
     <orderEntry type="library" name="Maven: com.sun.activation:jakarta.activation:1.2.2" level="project" />
+    <orderEntry type="library" name="Maven: com.azure.spring:spring-cloud-azure-starter:4.3.0" level="project" />
+    <orderEntry type="library" name="Maven: com.azure.spring:spring-cloud-azure-autoconfigure:4.3.0" level="project" />
+    <orderEntry type="library" name="Maven: com.azure.spring:spring-cloud-azure-service:4.3.0" level="project" />
+    <orderEntry type="library" name="Maven: com.azure.spring:spring-cloud-azure-core:4.3.0" level="project" />
+    <orderEntry type="library" name="Maven: com.azure:azure-core-amqp:2.5.2" level="project" />
+    <orderEntry type="library" name="Maven: com.microsoft.azure:qpid-proton-j-extensions:1.2.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.qpid:proton-j:0.33.8" level="project" />
+    <orderEntry type="library" name="Maven: com.azure:azure-core-management:1.6.2" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.validation:jakarta.validation-api:2.0.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.azure:azure-identity:1.5.3" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.azure:azure-core:1.30.0" level="project" />
+    <orderEntry type="library" name="Maven: com.azure:azure-core:1.30.0" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.4" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.11.4" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.11.4" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.11.4" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.codehaus.woodstox:stax2-api:4.2.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.fasterxml.woodstox:woodstox-core:6.2.3" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: io.projectreactor:reactor-core:3.4.5" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.reactivestreams:reactive-streams:1.0.3" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.11.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.11.4" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.woodstox:stax2-api:4.2.1" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.woodstox:woodstox-core:6.2.3" level="project" />
+    <orderEntry type="library" name="Maven: io.projectreactor:reactor-core:3.4.5" level="project" />
+    <orderEntry type="library" name="Maven: org.reactivestreams:reactive-streams:1.0.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.azure:azure-core-http-netty:1.12.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.netty:netty-handler:4.1.63.Final" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.netty:netty-common:4.1.63.Final" level="project" />
